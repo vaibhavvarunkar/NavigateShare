@@ -37,6 +37,7 @@ function Learn() {
   return (
     <>
       <h1>Learn Route</h1>
+      <App />
       <Link className="btn btn-success" to="/learn/courses">Course</Link>
       <Link className="btn btn-warning" to="/learn/bundles">Bundle</Link>
       <Outlet />
